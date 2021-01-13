@@ -16,7 +16,7 @@ joblib
                         [-o outdir]
 ```
 **-i**: filename of raw input text. Input text shoud be in TSV format with 4 colomns as follows:  
-&nbsp;&nbsp;&nbsp;&nbsp;Sent_ID*TAB*Word*TAB*Pos*TAB*Tag  
+&nbsp;&nbsp;&nbsp;&nbsp;Sent_ID  Word  Pos  Tag  
 **-n**: number of threads to use. Default=1  
 **-o**: directory to save trained model. Default=./model  
 
